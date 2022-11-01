@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/banner.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div img {
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 40px;
+    box-shadow: white 1px 1px 10px 3px;
+}
+
+nav div h5 {
+    color: white;
+    text-shadow: rgb(12, 193, 253) 2px 1px, red 2px 2px;
+}
+
+nav div h5, nav div div a {
+    padding-top: 25px;
+}
+
+nav div h5 {
+    padding-left: -40px;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#items {
+    padding: 0;
+}
+
+#items div {
+    margin-right: 50px;
+    font-weight: 500;
+}
+
+#items div a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(12, 193, 253) 2px 1px, red 2px 2px;
+    transition: .2s;
+}
+
+#items div a:hover {
+    scale: 1.8;
+}
+@media screen and (max-width: 1600px) {
+    #items div {
+        padding-right: 0;
+    }
+}
+
+#banner {
+    margin-top: 100px;
+}
+
+#banner div img {
+    border-radius: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+#banner div h1 {
+    color: aliceblue;
+    z-index: 0;
+    margin-left: 150px;
+    font-size: 150px;
+    background: linear-gradient(90deg, rgb(189, 8, 8) 23%, rgb(204, 17, 17) 41%, rgb(21, 148, 129) 50%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: white 5px 1px;
+}
+
+#info {
+    color: white;
+    padding: 0;
+}
+
+#info h2 {
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(12, 193, 253) 2px 1px, red 2px 2px;
+}
+
+#experiencia {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+#exp {
+    font-size: 100px;
+    text-shadow: rgb(12, 193, 253) 2px 1px, red 2px 2px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+#textexp {
+    font-size: 30px;
+    padding: 0;
+}
