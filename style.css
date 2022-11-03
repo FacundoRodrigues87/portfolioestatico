@@ -67,6 +67,9 @@ nav div {
     #banner {
         scale: .7;
     }
+    #items div #log {
+        margin-right: 0px;
+    }
 }
 
 @media screen and (max-width:977px){
@@ -119,8 +122,22 @@ nav div {
     padding: 0;
 }
 
-@media screen and (max-width:600px) {
-    #items {
+#drop {
+    display: none;
+}
+
+@media screen and (max-width:784px) {
+    #largo {
         display: none;
     }
+    #drop {
+        display: flex;
+    }
+    #items div a:hover {
+        scale: 1;
+    }
+}
+
+.dropdown-toggle::after {
+    display: none;
 }
