@@ -41,24 +41,23 @@ nav div h5 {
   text-shadow: rgb(12, 193, 253) 2px 1px, red 2px 2px;
 }
 
-
 nav div {
-display: flex;
+  display: flex;
 }
 
 #items div {
-font-weight: 500;
+  font-weight: 500;
 }
 
 #items div a {
-text-decoration: none;
-color: rgb(255, 255, 255);
-text-shadow: rgb(12, 193, 253) 2px 1px, red 2px 2px;
-transition: 0.2s;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(12, 193, 253) 2px 1px, red 2px 2px;  
+  transition: 0.2s;
 }
 
 #items div a:hover {
-scale: 1.5;
+  scale: 1.5;
 }
 
 @media screen and (max-width: 1200px) {
@@ -124,7 +123,6 @@ scale: 1.5;
 
 #drop {
   display: none;
-  
 }
 
 @media screen and (max-width: 784px) {
@@ -148,17 +146,12 @@ scale: 1.5;
 
 @media screen and (max-width: 978px) {
   #info {
-    scale: .8;
+  scale: .8;
   }
 }
 
 .dropdown-toggle::after {
   display: none;
-}
-
-#logoentre,
-#logomogas {
-  padding-left: 100px;
 }
 
 #textcard {
@@ -169,14 +162,13 @@ scale: 1.5;
 }
 
 .progress {
-    width: 75%;
-
-    margin-bottom: 50px;
+  width: 75%;
+  margin-bottom: 50px;
 }
 
 #barra {
-    font-size: x-large;
-    font-weight: bold;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .bgColor {
