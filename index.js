@@ -9,3 +9,21 @@ function changeBg(){
 }
 
 window.addEventListener('scroll', changeBg);
+
+let modifi = document.getElementById('modifi');
+
+function mostrarInput() {
+    modifi.style.display = 'flex';
+}
+
+function enviarParrafo() {
+    var nuevopa = document.getElementById('edit-acerca').value;
+    var parra = document.getElementById('infoyo');
+    parra.innerText = nuevopa
+    modifi.style.display = 'none';
+}
+
+function cerrarInput() {
+    modifi.style.display = 'none';
+}
+
